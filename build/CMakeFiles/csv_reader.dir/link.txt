@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/csv_reader.dir/main.cpp.o CMakeFiles/csv_reader.dir/src/utils.cpp.o  -o csv_reader 

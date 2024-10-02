@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/layer.h
+vector
+-
+
+../include/neural_network.h
+layer.h
+../include/layer.h
+vector
+-
+
+../include/utils.h
+vector
+-
+string
+-
+
+/home/default/Desktop/neat/main.cpp
+neural_network.h
+/home/default/Desktop/neat/neural_network.h
+utils.h
+/home/default/Desktop/neat/utils.h
+iostream
+-
+

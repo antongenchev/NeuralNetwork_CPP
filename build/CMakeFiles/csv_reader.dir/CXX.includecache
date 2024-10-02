@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+vector
+-
+string
+-
+
+/home/default/Desktop/neat/main.cpp
+utils.h
+/home/default/Desktop/neat/utils.h
+iostream
+-
+
+/home/default/Desktop/neat/src/utils.cpp
+utils.h
+/home/default/Desktop/neat/src/utils.h
+fstream
+-
+sstream
+-
+vector
+-
+string
+-
+iostream
+-
+
